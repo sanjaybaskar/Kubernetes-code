@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: ReplicaSet
+kind: Deployment
 metadata:
   name: login-rs
   labels:
@@ -19,4 +19,4 @@ spec:
       spec:
         containers:
         - name: login-con
-          image: sanjaybaskar/webapp
+          image: sanjaybaskar/webapp-1.0
