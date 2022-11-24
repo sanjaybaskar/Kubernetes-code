@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: login-pod
+  labels:
+   app: login
+spec:
+  containers:
+    - name: login-con
+      image: sanjaybaskar/webapp
+
